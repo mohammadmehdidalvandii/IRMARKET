@@ -1,0 +1,52 @@
+@import url(./reset.css);
+
+/* +++++++++++ Start Font Family ++++++++++++ */
+@font-face {
+    font-family: iranMedium;
+    src: url(../font/IRANSansWeb_Medium.woff);
+}
+@font-face {
+    font-family: iranBold;
+    src: url(../font/IRANSansWeb_Bold.ttf);
+}
+@font-face {
+    font-family: iranBlack;
+    src: url(../font/IRANSansWeb_Black.ttf);
+}
+/* +++++++++++ End Font Family ++++++++++++ */
+
+/* +++++++++++ Start Variable Root ++++++++++++ */
+:root{
+    --font-medium : iranMedium;
+    --font-bold: iranBold;
+    --font-black: iranBlack;
+
+    --color-white : #FFFFFF;
+    --color-red : #DC2626;
+    --color-black : #0C0C0C;
+    --color-gray-25 : #F9FAFB;
+    --color-gray-50 : #E5E7EB;
+    --color-gray-75: #DCDDDE;
+    --color-gray-100: #656573;
+
+}
+/* +++++++++++ End Variable Root ++++++++++++ */
+/* +++++++++++ Start Style Body ++++++++++++ */
+body{
+    box-sizing: border-box;
+    font-family: var(--font-medium);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+/* +++++++++++ End Style Body ++++++++++++ */
+/* +++++++++++ Start Style Container ++++++++++++ */
+.containers{
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* +++++++++++ End Style Container ++++++++++++ */
+/* +++++++++++++++++++++++ */
+/* +++++++++++++++++++++++ */
