@@ -1,12 +1,11 @@
+import { useRoutes } from "react-router-dom"
+import routes from "./routes"
 
 function App() {
-
-
+  const router = useRoutes(routes)
   return (
     <>
-    <div className="containers">
-      <h1>محمدمهدی دالوندی</h1>
-    </div>
+        {router}
     </>
   )
 }
