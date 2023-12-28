@@ -37,6 +37,7 @@ body{
     font-family: var(--font-medium);
     font-size: 1.3rem;
     font-weight: 500;
+    background-color: var(--color-gray-25);
 }
 /* +++++++++++ End Style Body ++++++++++++ */
 /* +++++++++++ Start Style Container ++++++++++++ */
