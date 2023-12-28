@@ -51,5 +51,27 @@ body{
     padding-left: 1rem;
 }
 /* +++++++++++ End Style Container ++++++++++++ */
+/* +++++++++++ Start Style DropDown ++++++++++++ */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 2.3rem;
+    background-color:var(--color-white);
+    box-shadow: 0 0 0.1rem 0.1rem var(--color-gray-25);
+    min-width: 160px;
+    border-radius: 0.5rem;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* +++++++++++ End Style DropDown ++++++++++++ */
 /* +++++++++++++++++++++++ */
 /* +++++++++++++++++++++++ */
