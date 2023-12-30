@@ -144,6 +144,7 @@ transition: all 0.4s ease-in;
     padding: 3rem 1rem;
     width: 100%;
     background-color: var(--color-white);
+    z-index: 2;
 }
 .menuItem_linkLogo{
     display: block;

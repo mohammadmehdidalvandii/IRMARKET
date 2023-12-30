@@ -1,8 +1,11 @@
+import HomeHeader from "../components/template/home/HomeHeader/HomeHeader"
 
 
 function Home() {
   return (
-    <div>Home</div>
+   <>
+    <HomeHeader/>
+   </>
   )
 }
 
