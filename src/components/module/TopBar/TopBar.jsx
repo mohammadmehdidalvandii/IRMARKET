@@ -2,11 +2,18 @@ import './TopBar.css'
 import { FiSearch } from "react-icons/fi";
 import {FaUser, FaBars , FaTimes} from 'react-icons/fa'
 import {MdOutlineShoppingCart} from "react-icons/md"
-import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
+import { useState , useEffect } from 'react';
 
 function TopBar() {
     const [menuItem , setMenuItem] = useState(false)
+    const [activeMenu , setActiveMenu] =useState('/')
+
+    const location = useLocation()
+    useEffect(()=>{
+        const pathName = location.pathname
+        setActiveMenu(pathName)
+    },[location])
 
     const handlerMenu = ()=> {
        setMenuItem(!menuItem)
@@ -75,6 +82,9 @@ function TopBar() {
                                 <NavLink to='/' className='menuItem-link'>ثبت نام </NavLink>
                             </div>
                             <ul className="menuItem_items">
+                                <li className="menuItem_item">
+                                    <NavLink to='/' className={`menuItem_itemLink ${activeMenu === '/' ? ".menuItem-linkActive" : ""}`}>خانه</NavLink>
+                                </li>
                                 <li className="menuItem_item">
                                     <NavLink to='/' className='menuItem_itemLink'>پوشاک</NavLink>
                                 </li>

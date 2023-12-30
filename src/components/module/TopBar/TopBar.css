@@ -157,6 +157,14 @@ padding: 0.4rem 0.5rem;
 border-radius: 0.5rem;
 transition: all 0.4s ease-in;
 }
+.menuItem-linkActive{
+    display: block;
+    text-decoration: none;
+    color: var(--color-black);
+    background-color: var(--color-pink);
+padding: 0.4rem 0.5rem;
+border-radius: 0.5rem;
+}
 .menuItem-link:hover{
     background-color: var(--color-pink);
 }
