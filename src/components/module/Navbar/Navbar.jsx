@@ -22,13 +22,13 @@ function Navbar() {
                         <span className="navbar_itemText">پوشاک</span>
                         <ul className="navbar_itemMenus dropdown-content ">
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>مردانه</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>مردانه</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>زنانه</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>زنانه</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>بجگانه</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>بجگانه</NavLink>
                             </li>
                         </ul>
                     </li>
@@ -36,16 +36,16 @@ function Navbar() {
                         <span className="navbar_itemText">کلای دیجیتال</span>
                         <ul className="navbar_itemMenus dropdown-content ">
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>لب تاپ</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>لب تاپ</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>موبایل</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>موبایل</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>تبلت</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>تبلت</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>وسایل جانبی</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>وسایل جانبی</NavLink>
                             </li>
                         </ul>
                     </li>
@@ -53,16 +53,16 @@ function Navbar() {
                         <span className="navbar_itemText">لوازم خانگی</span>
                         <ul className="navbar_itemMenus dropdown-content ">
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>یخچال و فریزر</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>یخچال و فریزر</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>ماشین لباسشویی</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>ماشین لباسشویی</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>اجاق گاز</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>اجاق گاز</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>سینک</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>سینک</NavLink>
                             </li>
                         </ul>
                     </li>
@@ -70,13 +70,13 @@ function Navbar() {
                         <span className="navbar_itemText">زیبایی</span>
                         <ul className="navbar_itemMenus dropdown-content ">
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>لوازم آرایشی</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>لوازم آرایشی</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>عطر</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>عطر</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>لوازم بهداشتی</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>لوازم بهداشتی</NavLink>
                             </li>
                         </ul>
                     </li>
@@ -84,19 +84,19 @@ function Navbar() {
                         <span className="navbar_itemText">لوازم برقی</span>
                         <ul className="navbar_itemMenus dropdown-content ">
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>سشوار </NavLink>
+                                <NavLink to='/' className='navbar_item_link'>سشوار </NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>اتو</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>اتو</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>ریش تراش</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>ریش تراش</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>ترازو</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>ترازو</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>ساعت دیواری</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>ساعت دیواری</NavLink>
                             </li>
                         </ul>
                     </li>
@@ -104,19 +104,19 @@ function Navbar() {
                         <span className="navbar_itemText">سوپرمارکت</span>
                         <ul className="navbar_itemMenus dropdown-content ">
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>لبنیات</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>لبنیات</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>ترشیجات</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>ترشیجات</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>حبوبات</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>حبوبات</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>گوشت و مرغ</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>گوشت و مرغ</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>میوه</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>میوه</NavLink>
                             </li>
                         </ul>
                     </li>
@@ -124,13 +124,13 @@ function Navbar() {
                         <span className="navbar_itemText">کودک نوزاد</span>
                         <ul className="navbar_itemMenus dropdown-content ">
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>پوشک</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>پوشک</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>لباس</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>لباس</NavLink>
                             </li>
                             <li className="navbar_itemMenu">
-                                <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>کالای خواب</NavLink>
+                                <NavLink to='/' className='navbar_item_link'>کالای خواب</NavLink>
                             </li>
                         </ul>
                     </li>
