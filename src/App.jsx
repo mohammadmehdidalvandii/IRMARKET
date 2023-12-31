@@ -2,14 +2,28 @@ import { useRoutes } from "react-router-dom"
 import routes from "./routes"
 import TopBar from "./components/module/TopBar/TopBar"
 import Navbar from "./components/module/Navbar/Navbar"
+import productContext from "./context/productContext"
+import db from './data/db.json'
+import { useState } from "react"
 
 function App() {
   const router = useRoutes(routes)
+  const [products , setProducts] = useState([...db.products])
+  const [userBasket , setUserBasket] = useState([])
   return (
     <>
+    <productContext.Provider 
+      value={{
+        products,
+        setProducts,
+        userBasket,
+        setUserBasket
+      }}
+    >
         <TopBar/>
         <Navbar/>
         {router}
+    </productContext.Provider>
     </>
   )
 }
