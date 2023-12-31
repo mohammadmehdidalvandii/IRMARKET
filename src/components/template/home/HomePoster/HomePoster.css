@@ -1,0 +1,14 @@
+.homePoster{
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+}
+.homePoster_link{
+    display: block;
+    overflow: hidden;
+margin-bottom: 1rem;
+}
+.homePoster_link_img{
+    width: 100%;
+    border-radius: 1rem;
+}
