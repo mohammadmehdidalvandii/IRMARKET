@@ -1,0 +1,58 @@
+{
+    "products":[
+        {
+            "id":1,
+            "image":"/assets/images/p1.jpg",
+            "name":"شیائومی mi 11",
+            "price":8700000,
+            "des":"",
+            "count": 1,
+            "inCould":39
+        },
+        {
+            "id":2,
+            "image":"/assets/images/p2.jpg",
+            "name":"ساعت هوشمند اپل مدل 8",
+            "price":"16000000",
+            "des":"",
+            "count": 1,
+            "inCould":21 
+        },
+        {
+            "id":3,
+            "image":"/assets/images/p3.jpg",
+            "name":"ریش تراش دایاک",
+            "price":"1280000",
+            "des":"",
+            "count": 1,
+            "inCould":1 
+        },
+        {
+            "id":4,
+            "image":"/assets/images/p4.jpg",
+            "name":"tv 24 اینج LG   ",
+            "price":12000000,
+            "des":"",
+            "count": 1,
+            "inCould":22
+        },
+        {
+            "id":5,
+            "image":"/assets/images/p5.jpg",
+            "name":"پافر پاییزی ",
+            "price":"430000",
+            "des":"",
+            "count": 1,
+            "inCould":54
+        },
+        {
+            "id":6,
+            "image":"/assets/images/p6.jpg",
+            "name":"هندزفری شیائومی T12 ",
+            "price":"4560000",
+            "des":"",
+            "count": 1,
+            "inCould":43
+        }
+    ]
+}
