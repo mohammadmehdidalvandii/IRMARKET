@@ -73,5 +73,15 @@ body{
     display: block;
   }
 /* +++++++++++ End Style DropDown ++++++++++++ */
+/* +++++++++++ Start Style contentBox++++++++++++ */
+.contentBox{
+    display: block;
+    width: 100%;
+    color: var(--color-white);
+    box-shadow: 0 5px 8px 4px var(--color-gray-75);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+/* +++++++++++ End Style contentBox++++++++++++ */
 /* +++++++++++++++++++++++ */
 /* +++++++++++++++++++++++ */
