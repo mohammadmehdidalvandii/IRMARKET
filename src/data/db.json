@@ -13,7 +13,7 @@
             "id":2,
             "image":"/assets/images/p2.jpg",
             "name":"ساعت هوشمند اپل مدل 8",
-            "price":"16000000",
+            "price":16000000,
             "des":"",
             "count": 1,
             "inCould":21 
@@ -22,7 +22,7 @@
             "id":3,
             "image":"/assets/images/p3.jpg",
             "name":"ریش تراش دایاک",
-            "price":"1280000",
+            "price":1280000,
             "des":"",
             "count": 1,
             "inCould":1 
@@ -40,7 +40,7 @@
             "id":5,
             "image":"/assets/images/p5.jpg",
             "name":"پافر پاییزی ",
-            "price":"430000",
+            "price":430000,
             "des":"",
             "count": 1,
             "inCould":54
@@ -49,7 +49,7 @@
             "id":6,
             "image":"/assets/images/p6.jpg",
             "name":"هندزفری شیائومی T12 ",
-            "price":"4560000",
+            "price":4560000,
             "des":"",
             "count": 1,
             "inCould":43
@@ -58,7 +58,7 @@
             "id":7,
             "image":"/assets/images/p7.jpg",
             "name":"لب تاپ ایسوس xyz",
-            "price":"43900000",
+            "price":43900000,
             "des":"",
             "count": 1,
             "inCould":21
@@ -67,7 +67,7 @@
             "id":8,
             "image":"/assets/images/p8.jpg",
             "name":"گوشی نافینگ 1",
-            "price":"1560000",
+            "price":1560000,
             "des":"",
             "count": 1,
             "inCould":43
@@ -76,7 +76,7 @@
             "id":9,
             "image":"/assets/images/p9.jpg",
             "name":"کش مخصوص تقویت دست",
-            "price":"1200000",
+            "price":1200000,
             "des":"",
             "count": 1,
             "inCould":73
@@ -85,7 +85,7 @@
             "id":10,
             "image":"/assets/images/p10.jpg",
             "name":"اسپری اتو مو",
-            "price":"120000",
+            "price":120000,
             "des":"",
             "count": 1,
             "inCould":43
@@ -94,7 +94,7 @@
             "id":11,
             "image":"/assets/images/p11.jpg",
             "name":"پک لوازم سفر",
-            "price":"2300000",
+            "price":2300000,
             "des":"",
             "count": 1,
             "inCould":33
@@ -103,7 +103,7 @@
             "id":12,
             "image":"/assets/images/p12.jpg",
             "name":"بسته روان نویس ",
-            "price":"150000",
+            "price":150000,
             "des":"",
             "count": 1,
             "inCould":13
