@@ -4,6 +4,7 @@ import HomePoster from "../components/template/home/HomePoster/HomePoster";
 import HomeBest from "../components/template/home/HomeBest/HomeBest";
 import PosterDiscount from "../components/template/home/PosterDiscount/PosterDiscount";
 import HomePopular from "../components/template/home/HomePopular/HomePopular";
+import Weblog from "../components/template/home/Weblog/Weblog";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
     <HomeBest/>
     <PosterDiscount/>   
     <HomePopular/>
+    <Weblog/>
     <br /><br /><br /><br />
    </>
   )

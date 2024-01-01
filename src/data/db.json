@@ -162,5 +162,27 @@
             "count": 1,
             "inCould":45
         }
+    ],
+    "articles":[
+        {
+            "id":1,
+            "image":"/assets/images/w1.jpg",
+            "title":"لوازم آشپزی مورد نیاز"
+        },
+        {
+            "id":2,
+            "image":"/assets/images/w2.jpg",
+            "title":"چه چیزی هایی با خود به کوه ببرم؟"
+        },
+        {
+            "id":3,
+            "image":"/assets/images/w3.jpg",
+            "title":"چرا نباید در هوای بارانی در فصل زمستان و بهار آفرود بریم؟"
+        },
+        {
+            "id":4,
+            "image":"/assets/images/w4.jpg",
+            "title":"چادر ضداب یا پارچه ای؟"
+        }
     ]
 }
