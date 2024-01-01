@@ -5,6 +5,7 @@ import Navbar from "./components/module/Navbar/Navbar"
 import productContext from "./context/productContext"
 import db from './data/db.json'
 import { useState } from "react"
+import Footer from "./components/module/Footer/Footer"
 
 function App() {
   const router = useRoutes(routes)
@@ -23,6 +24,7 @@ function App() {
         <TopBar/>
         <Navbar/>
         {router}
+        <Footer/>
     </productContext.Provider>
     </>
   )
