@@ -33,7 +33,7 @@ function Footer() {
                     <NavLink to='/' className='footer_item_link'>خانه</NavLink>
                 </li>
                 <li className="footer_item">
-                    <NavLink to='/' className='footer_item_link'>درباره ما</NavLink>
+                    <NavLink to='/About' className='footer_item_link'>درباره ما</NavLink>
                 </li>
                 <li className="footer_item">
                     <NavLink to='/' className='footer_item_link'>پیگیری سفارش</NavLink>
