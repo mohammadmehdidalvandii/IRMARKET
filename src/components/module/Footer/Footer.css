@@ -23,6 +23,7 @@
 .footer_items{
     display: block;
     margin-top: 2rem;
+    margin-right: 3rem;
 }
 .footer_item{
     margin-bottom: 1rem;
@@ -42,6 +43,7 @@
 .footer_media{
     display: block;
     margin-top: 2rem;
+    margin-right: 3rem;
 }
 .footer_mediaLinks{
     margin-top: 1rem;
