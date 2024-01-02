@@ -1,9 +1,12 @@
+import Articles from "../../components/template/weblog/Articles/Articles"
 
 
 function Weblog() {
   return (
-    <div>Weblog</div>
-  )
+    <>
+    <Articles/>
+    </>
+    )
 }
 
 export default Weblog
