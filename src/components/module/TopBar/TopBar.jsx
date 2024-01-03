@@ -40,8 +40,8 @@ function TopBar() {
                                     ورود | ثبت نام
                                 </span>
                                     <div className="loginRegister_links dropdown-content ">
-                                        <NavLink to='/' className='loginRegister-link'>ورود</NavLink>
-                                        <NavLink to='/' className='loginRegister-link'>ثبت نام</NavLink>
+                                        <NavLink to='/Login' className='loginRegister-link'>ورود</NavLink>
+                                        <NavLink to='/Register' className='loginRegister-link'>ثبت نام</NavLink>
                                     </div>
                             </div>
                             <div className="topBar_basket-num">
@@ -79,7 +79,7 @@ function TopBar() {
                                         سبد خرید 
                                 </NavLink>
                                 <NavLink to='/Login' className='menuItem-link'>ورود</NavLink>
-                                <NavLink to='/' className='menuItem-link'>ثبت نام </NavLink>
+                                <NavLink to='/Register' className='menuItem-link'>ثبت نام </NavLink>
                             </div>
                             <ul className="menuItem_items">
                                 <li className="menuItem_item">
