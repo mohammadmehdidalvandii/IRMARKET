@@ -1,8 +1,11 @@
+import Product from "../../components/template/Product/Product"
 
 
 function Products() {
   return (
-    <div>Products</div>
+    <>
+    <Product/>
+    </>
   )
 }
 
