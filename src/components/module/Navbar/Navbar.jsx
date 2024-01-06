@@ -20,7 +20,7 @@ function Navbar() {
                         <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>خانه</NavLink>
                     </li>
                     <li className="navbar_item">
-                        <NavLink to='/Product' className={`navbar_item_link  ${activeMenu === '/Product' ? "navbar_item_linkActive" :""}`}>محصولات</NavLink>
+                        <NavLink to='/Products' className={`navbar_item_link  ${activeMenu === '/Products' ? "navbar_item_linkActive" :""}`}>محصولات</NavLink>
                     </li>
                     <li className="navbar_item">
                         <NavLink to='/Weblog' className={`navbar_item_link  ${activeMenu === '/Weblog' ? "navbar_item_linkActive" :""}`}>بلاگ</NavLink>
