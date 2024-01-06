@@ -1,8 +1,11 @@
+import Baskets from "../../components/template/basket/Baskets/Baskets"
 
 
 function Basket() {
   return (
-    <div>Basket</div>
+    <>
+    <Baskets/>
+    </>
   )
 }
 
