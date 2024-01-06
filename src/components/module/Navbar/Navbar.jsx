@@ -1,6 +1,7 @@
 import './Navbar.css'
 import { NavLink, useLocation } from 'react-router-dom'
 import { useState , useEffect } from 'react'
+import {IoIosArrowDown} from 'react-icons/io'
 
 function Navbar() {
     const [activeMenu ,setActiveMenu]= useState('/')
@@ -18,6 +19,16 @@ function Navbar() {
                     <li className="navbar_item">
                         <NavLink to='/' className={`navbar_item_link  ${activeMenu === '/' ? "navbar_item_linkActive" :""}`}>خانه</NavLink>
                     </li>
+                    <li className="navbar_item">
+                        <NavLink to='/Product' className={`navbar_item_link  ${activeMenu === '/Product' ? "navbar_item_linkActive" :""}`}>محصولات</NavLink>
+                    </li>
+                    <li className="navbar_item">
+                        <NavLink to='/Weblog' className={`navbar_item_link  ${activeMenu === '/Weblog' ? "navbar_item_linkActive" :""}`}>بلاگ</NavLink>
+                    </li>
+                    <li className="navbar_item">
+                        <NavLink to='/About' className={`navbar_item_link  ${activeMenu === '/About' ? "navbar_item_linkActive" :""}`}>درباه ما</NavLink>
+                    </li>
+
                     <li className="navbar_item dropdown">
                         <span className="navbar_itemText">پوشاک</span>
                         <ul className="navbar_itemMenus dropdown-content ">
@@ -31,6 +42,9 @@ function Navbar() {
                                 <NavLink to='/' className='navbar_item_link'>بجگانه</NavLink>
                             </li>
                         </ul>
+                        <span className="navbar_itemIcon">
+                            <IoIosArrowDown/>
+                        </span>
                     </li>
                     <li className="navbar_item dropdown">
                         <span className="navbar_itemText">کلای دیجیتال</span>
@@ -48,6 +62,9 @@ function Navbar() {
                                 <NavLink to='/' className='navbar_item_link'>وسایل جانبی</NavLink>
                             </li>
                         </ul>
+                         <span className="navbar_itemIcon">
+                            <IoIosArrowDown/>
+                        </span>
                     </li>
                     <li className="navbar_item dropdown">
                         <span className="navbar_itemText">لوازم خانگی</span>
@@ -65,6 +82,9 @@ function Navbar() {
                                 <NavLink to='/' className='navbar_item_link'>سینک</NavLink>
                             </li>
                         </ul>
+                         <span className="navbar_itemIcon">
+                            <IoIosArrowDown/>
+                        </span>
                     </li>
                     <li className="navbar_item dropdown">
                         <span className="navbar_itemText">زیبایی</span>
@@ -79,60 +99,9 @@ function Navbar() {
                                 <NavLink to='/' className='navbar_item_link'>لوازم بهداشتی</NavLink>
                             </li>
                         </ul>
-                    </li>
-                    <li className="navbar_item dropdown">
-                        <span className="navbar_itemText">لوازم برقی</span>
-                        <ul className="navbar_itemMenus dropdown-content ">
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>سشوار </NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>اتو</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>ریش تراش</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>ترازو</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>ساعت دیواری</NavLink>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="navbar_item dropdown">
-                        <span className="navbar_itemText">سوپرمارکت</span>
-                        <ul className="navbar_itemMenus dropdown-content ">
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>لبنیات</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>ترشیجات</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>حبوبات</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>گوشت و مرغ</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>میوه</NavLink>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="navbar_item dropdown">
-                        <span className="navbar_itemText">کودک نوزاد</span>
-                        <ul className="navbar_itemMenus dropdown-content ">
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>پوشک</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>لباس</NavLink>
-                            </li>
-                            <li className="navbar_itemMenu">
-                                <NavLink to='/' className='navbar_item_link'>کالای خواب</NavLink>
-                            </li>
-                        </ul>
+                         <span className="navbar_itemIcon">
+                            <IoIosArrowDown/>
+                        </span>
                     </li>
                 </ul>
             </div>
