@@ -46,7 +46,7 @@ function TopBar() {
                             </div>
                             <div className="topBar_basket-num">
                                 <span className="topBar_basket-number">0</span>
-                            <NavLink to='/' className='topBar_linkBasket'>
+                            <NavLink to='/Basket' className='topBar_linkBasket'>
                                 <MdOutlineShoppingCart className='topBar_linkBasket-icon'/>
                                 <span className='topBar_linkBasket-text'>سبد خرید</span>
                             </NavLink>

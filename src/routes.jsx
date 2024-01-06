@@ -3,6 +3,7 @@ import About from "./page/About/About";
 import Weblog from "./page/Weblog/Weblog";
 import Login  from "./page/Login/Login";
 import Register from "./page/Register/Register";
+import Basket from "./page/Basket/Basket";
 
 const routes = [
     {path:'/' , element : <Home/>},
@@ -10,6 +11,7 @@ const routes = [
     {path:'/Weblog' , element : <Weblog/>},
     {path:'/Login' , element : <Login/>},
     {path:'/Register' , element : <Register/>},
+    {path:'/Basket' , element : <Basket/>},
 ]
 
 
