@@ -5,6 +5,7 @@ import Login  from "./page/Login/Login";
 import Register from "./page/Register/Register";
 import Basket from "./page/Basket/Basket";
 import Products from "./page/Products/Products";
+import ProductDetails from "./page/ProductDetails/ProductDetails";
 
 const routes = [
     {path:'/' , element : <Home/>},
@@ -14,6 +15,7 @@ const routes = [
     {path:'/Register' , element : <Register/>},
     {path:'/Basket' , element : <Basket/>},
     {path:'/Products' , element : <Products/>},
+    {path:'/P-details' , element : <ProductDetails/>},
 ]
 
 
