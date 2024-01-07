@@ -1,8 +1,8 @@
-
+import PDetails from "../../components/template/p-details/PDetails/PDetails"
 
 function ProductDetails() {
   return (
-    <div>ProductDetails</div>
+   <PDetails/>
   )
 }
 
