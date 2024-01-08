@@ -1,8 +1,8 @@
-
+import Question from "../../components/template/Question/Question"
 
 function Questions() {
   return (
-    <div>Questions</div>
+   <Question/>
   )
 }
 
