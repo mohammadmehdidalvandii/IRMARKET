@@ -15,7 +15,7 @@ const routes = [
     {path:'/Register' , element : <Register/>},
     {path:'/Basket' , element : <Basket/>},
     {path:'/Products' , element : <Products/>},
-    {path:'/P-details' , element : <ProductDetails/>},
+    {path:'/P-details/:id' , element : <ProductDetails/>},
 ]
 
 

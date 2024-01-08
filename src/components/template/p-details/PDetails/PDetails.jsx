@@ -1,11 +1,16 @@
-import { useState } from "react";
 import "./PDetails.css";
+import { useState, useContext } from "react";
 import PAbout from "../PAbout/PAbout";
 import PCheck from "../pCheck/pCheck";
 import PInfo from "../PInfo/PInfo";
 import PComment from "../PComment/PComment";
+import productContext from "../../../../context/productContext";
+import { useParams } from "react-router-dom";
+
 
 function PDetails() {
+  const productData = useContext(productContext)
+
     // useState menuBtn
     const [menuBtn , setMenuBtn] = useState('about')
 
@@ -13,6 +18,12 @@ function PDetails() {
     const handlerMenuButton =(menuBtnID)=>{
         setMenuBtn(menuBtnID)
     }
+
+
+    // Get details product by id
+    const {id} = useParams()
+    const foundProduct = productData.products.find((product)=> product.id == parseInt(id))
+
   return (
     <section className="productDetails">
       <div className="containers">
@@ -20,7 +31,7 @@ function PDetails() {
           <div className="row">
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <img
-                src="/assets/images/p1.jpg"
+                src={foundProduct.image}
                 alt="product details"
                 className="productDetails_img"
               />
@@ -29,10 +40,10 @@ function PDetails() {
               <div className="productDetails_content">
                 <div className="productDetails_content_top">
                   <h5 className="productDetails_name">
-                  گوشی موبایل اپل مدل iPhone 13 Pro تک سیم کارت ظرفیت یک ترابایت و رم 6 گیگابایت
+                    {foundProduct.name}
                   </h5>
                   <span className="productDetails_miniInfo">
-                  Apple iPhone 13 Pro Single SIM 1TB And 6GB RAM Mobile Phone
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </span>
                 </div>
                 <div className="productDetails_content_down">
@@ -44,27 +55,27 @@ function PDetails() {
                     </li>
                     <li className="productDetails_item">
                       <span className="productDetails_item_text">
-                        پردازنده: AM 32x new design
+                      Lorem ipsum dolor sit.
                       </span>
                     </li>
                     <li className="productDetails_item">
                       <span className="productDetails_item_text">
-                        سیستم عامل: IOS
+                      Lorem ipsum dolor sit.
                       </span>
                     </li>
                     <li className="productDetails_item">
                       <span className="productDetails_item_text">
-                        فناوری ساخت: A2C
+                      Lorem ipsum dolor sit.
                       </span>
                     </li>
                     <li className="productDetails_item">
                       <span className="productDetails_item_text">
-                        دوربین عقب: 64
+                      Lorem ipsum dolor sit.
                       </span>
                     </li>
                     <li className="productDetails_item">
                       <span className="productDetails_item_text">
-                        دوربین جلو: 32
+                      Lorem ipsum dolor sit.
                       </span>
                     </li>
                   </ul>
@@ -82,12 +93,12 @@ function PDetails() {
                         <span className="productDetails_buy_title">
                           موجود در انبار:
                         </span>
-                        <span className="productDetails_buy_text">7 عدد</span>
+                        <span className="productDetails_buy_text">{foundProduct.inCould} عدد</span>
                       </li>
                       <li className="productDetails_buy_item">
                         <span className="productDetails_buy_title">قیمت:</span>
                         <span className="productDetails_buy_text">
-                          21,000,000 تومان
+                         {foundProduct.price.toLocaleString()} تومان
                         </span>
                       </li>
                     </ul>
