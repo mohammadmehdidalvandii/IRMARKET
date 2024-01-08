@@ -1,8 +1,11 @@
+import Account from "../../components/template/profile/Account/Account"
 
 
 function Profile() {
   return (
-    <div>Profile</div>
+    <>
+        <Account/>
+    </>
   )
 }
 
