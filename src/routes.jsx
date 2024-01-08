@@ -7,6 +7,7 @@ import Basket from "./page/Basket/Basket";
 import Products from "./page/Products/Products";
 import ProductDetails from "./page/ProductDetails/ProductDetails";
 import  Questions from './page/Questions/Questions'
+import Profile from "./page/Profile/Profile";
 const routes = [
     {path:'/' , element : <Home/>},
     {path:'/About' , element : <About/>},
@@ -17,6 +18,7 @@ const routes = [
     {path:'/Products' , element : <Products/>},
     {path:'/P-details/:id' , element : <ProductDetails/>},
     {path:'/Qus' , element : <Questions/>},
+    {path:'/Profile' , element : <Profile/>},
 ]
 
 

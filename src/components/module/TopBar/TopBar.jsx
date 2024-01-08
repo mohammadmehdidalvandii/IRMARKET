@@ -42,6 +42,7 @@ function TopBar() {
                                     <div className="loginRegister_links dropdown-content ">
                                         <NavLink to='/Login' className='loginRegister-link'>ورود</NavLink>
                                         <NavLink to='/Register' className='loginRegister-link'>ثبت نام</NavLink>
+                                        <NavLink to='/Profile' className='menuItem-link'>پروفایل</NavLink>
                                     </div>
                             </div>
                             <div className="topBar_basket-num">
@@ -80,6 +81,7 @@ function TopBar() {
                                 </NavLink>
                                 <NavLink to='/Login' className='menuItem-link'>ورود</NavLink>
                                 <NavLink to='/Register' className='menuItem-link'>ثبت نام </NavLink>
+                                <NavLink to='/Profile' className='menuItem-link'>پروفایل</NavLink>
                             </div>
                             <ul className="menuItem_items">
                                 <li className="menuItem_item">
