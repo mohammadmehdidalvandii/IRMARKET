@@ -6,7 +6,7 @@ import Register from "./page/Register/Register";
 import Basket from "./page/Basket/Basket";
 import Products from "./page/Products/Products";
 import ProductDetails from "./page/ProductDetails/ProductDetails";
-
+import  Questions from './page/Questions/Questions'
 const routes = [
     {path:'/' , element : <Home/>},
     {path:'/About' , element : <About/>},
@@ -16,6 +16,7 @@ const routes = [
     {path:'/Basket' , element : <Basket/>},
     {path:'/Products' , element : <Products/>},
     {path:'/P-details/:id' , element : <ProductDetails/>},
+    {path:'/Qus' , element : <Questions/>},
 ]
 
 

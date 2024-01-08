@@ -39,7 +39,7 @@ function Footer() {
                     <NavLink to='/' className='footer_item_link'>پیگیری سفارش</NavLink>
                 </li>
                 <li className="footer_item">
-                    <NavLink to='/' className='footer_item_link'>سوالات متداول</NavLink>
+                    <NavLink to='/Qus' className='footer_item_link'>سوالات متداول</NavLink>
                 </li>
                 <li className="footer_item">
                     <NavLink to='/Weblog' className='footer_item_link'>بلاگ</NavLink>
