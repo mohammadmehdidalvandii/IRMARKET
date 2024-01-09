@@ -4,6 +4,12 @@ import { IoMdPerson , IoIosBasket , IoMdHeartEmpty } from "react-icons/io";
 import {FaRegCommentDots} from 'react-icons/fa6'
 import {PiWarningCircleLight} from 'react-icons/pi'
 import { useState } from "react";
+import ProfileAccount from "../ProfileAccount/ProfileAccount";
+import OrderAccount from "../OrderAccount/OrderAccount";
+import FavoriteAccount from "../FavoriteAccount/FavoriteAccount";
+import CommentAccount from "../CommentAccount/CommentAccount";
+import AddressAccount from "../AddressAccount/AddressAccount";
+import InfoAccount from "../InfoAccount/InfoAccount";
 
 function Account() {
     const [menuAccount , setMenuAccount]= useState('profile')
@@ -16,7 +22,7 @@ function Account() {
     <section className="account">
       <div className="containers">
         <div className="row">
-          <div className="col-lg-3 col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-5 col-sm-12">
             <div className="contentBox">
               <div className="account_profile">
                 <img
@@ -56,7 +62,7 @@ function Account() {
                         <li className={`account_menu_item ${menuAccount === 'comment' ?"account_menu_itemActive":""}`}
                          onClick={()=>handlerMenuAccount('comment')}>
                             <FaRegCommentDots className="account_menu_icon" />
-                            <span className="account_menu_text">نظرات</span>
+                            <span className="account_menu_text"> نظرات من</span>
                         </li>
                         <li className={`account_menu_item ${menuAccount === 'address' ?"account_menu_itemActive":""}`}
                          onClick={()=>handlerMenuAccount('address')}>
@@ -66,20 +72,20 @@ function Account() {
                         <li className={`account_menu_item ${menuAccount === 'info' ?"account_menu_itemActive":""}`}
                          onClick={()=>handlerMenuAccount('info')}>
                             <PiWarningCircleLight className="account_menu_icon" />
-                            <span className="account_menu_text">اطلاعات حساب</span>
+                            <span className="account_menu_text">ویرایش اطلاعات</span>
                         </li>
                     </ul>
                 </div>
             </div>
           </div>
-          <div className="col-lg-9 col-md-9 col-sm-12">
+          <div className="col-lg-9 col-md-7 col-sm-12 " id="wrapper" >
             <div className="contentBox">
-                {menuAccount === 'profile' &&(<h1>account profile</h1>)}
-                {menuAccount === 'order' &&(<h1>account order</h1>)}
-                {menuAccount === 'favorite' &&(<h1>account favorite</h1>)}
-                {menuAccount === 'comment' &&(<h1>account comment</h1>)}
-                {menuAccount === 'address' &&(<h1>account address</h1>)}
-                {menuAccount === 'info' &&(<h1>account info</h1>)}
+                {menuAccount === 'profile' &&(<ProfileAccount/>)}
+                {menuAccount === 'order' &&(<OrderAccount/>)}
+                {menuAccount === 'favorite' &&(<FavoriteAccount/>)}
+                {menuAccount === 'comment' &&(<CommentAccount/>)}
+                {menuAccount === 'address' &&(<AddressAccount/>)}
+                {menuAccount === 'info' &&(<InfoAccount/>)}
             </div>
           </div>
         </div>

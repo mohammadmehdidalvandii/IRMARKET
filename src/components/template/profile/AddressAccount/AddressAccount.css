@@ -8,12 +8,17 @@
     flex-wrap: wrap;
 }
 .address_items{
+    display: block;
+    width: 100%;
     margin: 1rem;
     border: 1px solid var(--color-gray-50);
     border-radius: 1rem;
     padding: 1rem;
 }
 .address_item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 margin-bottom: 1rem;
 }
 .address_text{
